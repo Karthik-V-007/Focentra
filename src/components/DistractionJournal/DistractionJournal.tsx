@@ -1,8 +1,7 @@
-
 import React, { useState } from 'react';
 import { DistractionLog } from '@/types/types';
 import { BookOpenCheck, Plus, Trash2, Search, X, ChevronDown, ChevronUp } from 'lucide-react';
-import { toast } from '@/components/ui/sonner';
+import { toast } from 'sonner';
 
 const initialDistractions: DistractionLog[] = [
   {

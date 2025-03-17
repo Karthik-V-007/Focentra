@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { Task } from '@/types/types';
 import { CheckCircle2, Circle, Plus, Calendar, Clock, XCircle, ArrowUp, ArrowDown } from 'lucide-react';
-import { toast } from '@/components/ui/sonner';
+import { toast } from 'sonner';
 import { DragDropContext, Droppable, Draggable } from 'react-beautiful-dnd';
 
 const demoTasks: Task[] = [

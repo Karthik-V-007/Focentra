@@ -1,8 +1,7 @@
-
 import React, { useState } from 'react';
 import { StudyRoom, Message } from '@/types/types';
 import { Users, MessageSquare, Clock, Crown, PlusCircle, Send, X } from 'lucide-react';
-import { toast } from '@/components/ui/sonner';
+import { toast } from 'sonner';
 
 const demoRooms: StudyRoom[] = [
   {
@@ -129,7 +128,6 @@ const StudyRooms = () => {
     toast.info('Left the study room');
   };
   
-  // Filter messages for the selected room
   const roomMessages = messages.filter(msg => selectedRoom && msg.roomId === selectedRoom.id);
   
   return (

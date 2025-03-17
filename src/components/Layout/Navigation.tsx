@@ -43,7 +43,7 @@ const Navigation: React.FC<NavigationProps> = ({
               <div className="h-8 w-8 rounded-md bg-timerBlue flex items-center justify-center mr-2">
                 <Timer size={18} className="text-white" />
               </div>
-              <span className="text-xl font-bold text-gray-800">TimerTribe</span>
+              <span className="text-xl font-bold text-gray-800">Focentra</span>
             </div>
           </div>
           

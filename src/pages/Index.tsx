@@ -24,7 +24,7 @@ const Index = () => {
     
     // Show welcome toast
     setTimeout(() => {
-      toast('Welcome to TimerTribe', {
+      toast('Welcome to Focentra', {
         description: 'Stay focused and productive with our Pomodoro timer and task manager.',
         action: {
           label: 'Get Started',
@@ -73,7 +73,7 @@ const Index = () => {
       {!isFocusMode ? (
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mb-8 text-center">
-            <h1 className="text-4xl font-bold text-gray-900 mb-2">TimerTribe</h1>
+            <h1 className="text-4xl font-bold text-gray-900 mb-2">Focentra</h1>
             <p className="text-lg text-gray-600">Stay focused, organized, and productive</p>
           </div>
           

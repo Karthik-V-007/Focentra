@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { 
@@ -80,13 +79,6 @@ const LandingPage: React.FC = () => {
                 <p className="text-gray-600">
                   Enhance your focus with customizable work/break intervals that adapt to your study habits and concentration patterns.
                 </p>
-                <div className="mt-6">
-                  <img 
-                    src="public/lovable-uploads/529b8d4f-295f-4975-9c82-ca4e1b697934.png" 
-                    alt="Pomodoro Timer" 
-                    className="mx-auto h-48 w-full rounded-lg object-cover"
-                  />
-                </div>
               </CardContent>
             </Card>
 
@@ -100,13 +92,6 @@ const LandingPage: React.FC = () => {
                 <p className="text-gray-600">
                   Collaborate with peers in virtual study environments designed to simulate the accountability and community of in-person sessions.
                 </p>
-                <div className="mt-6">
-                  <img 
-                    src="public/lovable-uploads/48c6396b-12f9-4c96-9a1a-0381bd84df25.png" 
-                    alt="Study Rooms" 
-                    className="mx-auto h-48 w-full rounded-lg object-cover"
-                  />
-                </div>
               </CardContent>
             </Card>
 
@@ -120,13 +105,6 @@ const LandingPage: React.FC = () => {
                 <p className="text-gray-600">
                   Visualize your productivity trends with detailed analytics that highlight your study patterns and help you continuously improve.
                 </p>
-                <div className="mt-6">
-                  <img 
-                    src="public/lovable-uploads/529b8d4f-295f-4975-9c82-ca4e1b697934.png" 
-                    alt="Progress Tracking" 
-                    className="mx-auto h-48 w-full rounded-lg object-cover object-right"
-                  />
-                </div>
               </CardContent>
             </Card>
 
